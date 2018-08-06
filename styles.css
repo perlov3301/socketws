@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: black;
+  color: #0F0;
+  font-family: verdana;
+}
+body input,
+body label {
+  display: block;
+}
+h1 {
+  text-align: center;
+}
+input {
+  outline: none;
+  border: none;
+  border-radius: 0.5em;
+  background-color: black;
+  color: #0F0;
+  padding: 1em .5em;
+  display: block;
+  font-size: 1.5em;
+  flex-grow: 1;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+}
+label {
+  display: block;
+  padding: 1em .5em;
+  font-size: 1.5em;
+}
+div.messages {
+  margin-left: 1em;
+}
+form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+main {
+  flex: 1;
+  width: 80%;
+  margin-left: 4em;
+  margin-right: 2em;
+  min-height: 400px;
+  min-width: 300px;
+  background: darkblue;
+  padding: 20px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 55px 50px -20px #b6b6b6;
+}
+.twitter {
+  dislplay: flex;
+}
+ul {
+  /* border: 1px solid white;
+  border-radius: 0.3em; */
+}
+.fieldset {
+  border: 1px solid white;
+  border-radius: 0.3em;
+}
+.fieldset legend {
+  border: 1px solid white;
+  border-radius: 0.3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  color: gree;
+}

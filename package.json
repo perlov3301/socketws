@@ -1,0 +1,17 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "a sample of a simple websocket",
+  "main": "ws.js",
+  "scripts": {
+    "start": "open index.html & node ws"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "copy by Alex Perlov <perlov3301@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^6.0.0"
+  }
+}
